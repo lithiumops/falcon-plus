@@ -14,7 +14,7 @@
 
     ## init mysql table before the first running
     cd /tmp && \
-    git clone --depth=1 https://github.com/open-falcon/falcon-plus && \
+    git clone --depth=1 https://github.com/lithiumops/falcon-plus && \
     cd /tmp/falcon-plus/ && \
     for x in `ls ./scripts/mysql/db_schema/*.sql`; do
         echo init mysql table $x ...;
@@ -91,7 +91,7 @@ docker run --name falcon-redis -p6379:6379 -d redis:4-alpine3.8
 
 ```
     cd /tmp && \
-    git clone https://github.com/open-falcon/falcon-plus && \
+    git clone https://github.com/lithiumops/falcon-plus && \
     cd /tmp/falcon-plus/ && \
     docker build -t falcon-plus:v0.2.1 .
 ```
@@ -99,7 +99,7 @@ docker run --name falcon-redis -p6379:6379 -d redis:4-alpine3.8
 ##### Building falcon-dashboard
 ```
     cd /tmp && \
-    git clone https://github.com/open-falcon/dashboard  && \
+    git clone https://github.com/lithiumops/dashboard  && \
     cd /tmp/dashboard/ && \
     docker build -t falcon-dashboard:v0.2.1 .
 ```

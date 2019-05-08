@@ -16,11 +16,11 @@ package rpc
 
 import (
 	"fmt"
-	cmodel "github.com/open-falcon/falcon-plus/common/model"
-	cutils "github.com/open-falcon/falcon-plus/common/utils"
-	"github.com/open-falcon/falcon-plus/modules/transfer/g"
-	"github.com/open-falcon/falcon-plus/modules/transfer/proc"
-	"github.com/open-falcon/falcon-plus/modules/transfer/sender"
+	cmodel "github.com/lithiumops/falcon-plus/common/model"
+	cutils "github.com/lithiumops/falcon-plus/common/utils"
+	"github.com/lithiumops/falcon-plus/modules/transfer/g"
+	"github.com/lithiumops/falcon-plus/modules/transfer/proc"
+	"github.com/lithiumops/falcon-plus/modules/transfer/sender"
 	"strconv"
 	"time"
 )

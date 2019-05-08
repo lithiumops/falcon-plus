@@ -21,8 +21,8 @@ import (
 	"log"
 	"strings"
 
-	"github.com/open-falcon/falcon-plus/common/model"
-	"github.com/open-falcon/falcon-plus/modules/agent/g"
+	"github.com/lithiumops/falcon-plus/common/model"
+	"github.com/lithiumops/falcon-plus/modules/agent/g"
 	"github.com/toolkits/file"
 	"github.com/toolkits/sys"
 )

@@ -48,8 +48,8 @@ nodata所谓的异常，限定为 用户数据采集服务异常、falcon数据�
 #### 准备工作
 nodata服务正常运行，依赖如下准备工作:
 
-+ 确保已经建立mysql数据表falcon_portal.mockcfg。其中，[falcon_portal](https://github.com/open-falcon/scripts/blob/master/db_schema/portal-db-schema.sql)为portal组件的mysql数据库，mockcfg为存放nodata配置的数据表。mockcfg的建表语句，见[这里](https://github.com/nieanan/nodata/blob/master/scripts/nodata-db-schema.sql)。
-+ 确保[portal组件](https://github.com/open-falcon/portal)已经更新。portal组件中，新增了对nodata配置的UI支持。
++ 确保已经建立mysql数据表falcon_portal.mockcfg。其中，[falcon_portal](https://github.com/lithiumops/scripts/blob/master/db_schema/portal-db-schema.sql)为portal组件的mysql数据库，mockcfg为存放nodata配置的数据表。mockcfg的建表语句，见[这里](https://github.com/nieanan/nodata/blob/master/scripts/nodata-db-schema.sql)。
++ 确保[portal组件](https://github.com/lithiumops/portal)已经更新。portal组件中，新增了对nodata配置的UI支持。
 + 确保query组件版本不低于```1.4.3```。
 + 确保graph组件版本不低于```0.5.5```。
 
@@ -57,11 +57,11 @@ nodata服务正常运行，依赖如下准备工作:
 
 ```bash
 # update common lib
-cd $GOPATH/src/github.com/open-falcon/common
+cd $GOPATH/src/github.com/lithiumops/common
 git pull
 
 # compile nodata
-cd $GOPATH/src/github.com/open-falcon/nodata
+cd $GOPATH/src/github.com/lithiumops/nodata
 go get ./...
 ./control build
 ./control pack

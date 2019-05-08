@@ -19,10 +19,10 @@ import (
 	"strconv"
 	"strings"
 
-	cutils "github.com/open-falcon/falcon-plus/common/utils"
+	cutils "github.com/lithiumops/falcon-plus/common/utils"
 
-	"github.com/open-falcon/falcon-plus/modules/gateway/g"
-	"github.com/open-falcon/falcon-plus/modules/gateway/sender"
+	"github.com/lithiumops/falcon-plus/modules/gateway/g"
+	"github.com/lithiumops/falcon-plus/modules/gateway/sender"
 )
 
 func configProcHttpRoutes() {

@@ -21,9 +21,9 @@ import (
 	log "github.com/Sirupsen/logrus"
 	"github.com/emirpasic/gods/maps/hashmap"
 	"github.com/gin-gonic/gin"
-	cmodel "github.com/open-falcon/falcon-plus/common/model"
-	h "github.com/open-falcon/falcon-plus/modules/api/app/helper"
-	m "github.com/open-falcon/falcon-plus/modules/api/app/model/graph"
+	cmodel "github.com/lithiumops/falcon-plus/common/model"
+	h "github.com/lithiumops/falcon-plus/modules/api/app/helper"
+	m "github.com/lithiumops/falcon-plus/modules/api/app/model/graph"
 )
 
 type APIGrafanaMainQueryInputs struct {

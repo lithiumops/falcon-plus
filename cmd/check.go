@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/open-falcon/falcon-plus/g"
+	"github.com/lithiumops/falcon-plus/g"
 	"github.com/spf13/cobra"
 )
 

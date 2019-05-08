@@ -21,9 +21,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/open-falcon/falcon-plus/common/sdk/sender"
-	"github.com/open-falcon/falcon-plus/modules/aggregator/g"
-	"github.com/open-falcon/falcon-plus/modules/aggregator/sdk"
+	"github.com/lithiumops/falcon-plus/common/sdk/sender"
+	"github.com/lithiumops/falcon-plus/modules/aggregator/g"
+	"github.com/lithiumops/falcon-plus/modules/aggregator/sdk"
 )
 
 func WorkerRun(item *g.Cluster) {
